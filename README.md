@@ -6,6 +6,8 @@ thttpd is configured to serve out of the /srv directory.
 
 Thanks to [ACME Laboratories](https://acme.com/software/thttpd/) for thttpd.
 
+Source Hut Mirror - [git.sr.ht/~ananth/thttpd-container](https://git.sr.ht/~ananth/thttpd-container)
+
 **Usage**
 
 The image can be used in two ways:
