@@ -1,4 +1,6 @@
-FROM docker.io/library/alpine:3.14.2 AS build
+ARG alpine_version=latest
+
+FROM docker.io/library/alpine:${alpine_version} AS build
 ARG thttpd_version
 RUN test -n "$thttpd_version"
 RUN apk add --no-cache gcc musl-dev make 

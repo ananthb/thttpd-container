@@ -1,4 +1,7 @@
 # thttpd container image
+
+[![Publish container images](https://github.com/ananthb/thttpd-container/actions/workflows/containers.yml/badge.svg)](https://github.com/ananthb/thttpd-container/actions/workflows/containers.yml)
+
 Produces a minimal OCI container image containing a static [thttpd](https://acme.com/software/thttpd/) binary.
 thttpd is configured to serve out of the /srv directory.
 
@@ -8,7 +11,7 @@ Thanks to [ACME Laboratories](https://acme.com/software/thttpd/) for thttpd.
 
 Source Hut Mirror - [git.sr.ht/~ananth/thttpd-container](https://git.sr.ht/~ananth/thttpd-container)
 
-**Usage**
+## Usage
 
 The image can be used in two ways:
 1. Mount static content to /srv and run the image.
@@ -33,4 +36,5 @@ The image can be used in two ways:
 ---
 
 MIT Licensed, see [LICENSE](./LICENSE).
-Copyright (c) 2021 Ananth Bhaskararaman
+Copyright (c) 2021, & 2022 Ananth Bhaskararaman
+
